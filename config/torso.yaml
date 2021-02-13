@@ -1,0 +1,13 @@
+torso_yaw_joint_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: torso_yaw_joint
+    joint_speed: 0.3
+    motor:
+        id: 24
+        init: 2218
+        min: 1706
+        max: 2730
+

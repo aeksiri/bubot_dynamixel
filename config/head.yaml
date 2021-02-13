@@ -1,0 +1,26 @@
+head_yaw_joint_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: head_yaw_joint
+    joint_speed: 0.3
+    motor:
+        id: 21
+        init: 2084
+        min: 1448
+        max: 2720
+
+head_pitch_joint_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: head_pitch_joint
+    joint_speed: 0.3
+    motor:
+        id: 20
+        init: 2084
+        min: 1760
+        max: 2382
+

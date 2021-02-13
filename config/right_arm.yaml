@@ -1,0 +1,99 @@
+right_arm_shoulder_pitch_joint_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: right_arm_shoulder_pitch_joint
+    joint_speed: 0.3
+    motor:
+        id: 10
+        init: 2048
+        min: 600
+        max: 2514
+
+right_arm_shoulder_roll_joint_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: right_arm_shoulder_roll_joint
+    joint_speed: 0.3
+    motor:
+        id: 12
+        init: 2048
+        min: 1
+        max: 4050
+
+
+right_arm_shoulder_yaw_joint_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: right_arm_shoulder_yaw_joint
+    joint_speed: 0.3
+    motor:
+        id: 14
+        init: 2048
+        min: 1024
+        max: 3024
+
+right_arm_elbow_roll_joint_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: right_arm_elbow_roll_joint
+    joint_speed: 0.3
+    motor:
+        id: 15
+        init: 2048
+        min: 1050
+        max: 3000
+
+
+right_arm_forearm_yaw_joint_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: right_arm_forearm_yaw_joint
+    joint_speed: 0.3
+    motor:
+        id: 16
+        init: 2048
+        min: 1024
+        max: 3024
+
+
+right_arm_wrist_roll_joint_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: right_arm_wrist_roll_joint
+    joint_speed: 0.3
+    motor:
+        id: 17
+        init: 2048
+        min: 1024
+        max: 3024
+
+right_gripper_joint_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: right_gripper_joint
+    joint_speed: 0.3
+    motor:
+        id: 18
+        init: 1365
+        min: 1365
+        max: 2350
+
+
+
+
+
+

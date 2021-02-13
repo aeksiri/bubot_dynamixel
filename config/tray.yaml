@@ -1,0 +1,12 @@
+tray_pitch_joint_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: head_pitch_joint
+    joint_speed: 0.2
+    motor:
+        id: 22
+        init: 1055
+        min: 1055
+        max: 2043
